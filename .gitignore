@@ -1,0 +1,58 @@
+# Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+remotes.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node / Next.js
+node_modules/
+.next/
+.vercel/
+out/
+build/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local data — never commit operational data
+*.csv
+*.pdf
+*.xlsx
+*.sqlite
+*.db
+input/
+tmp/
+.tmp/
+scratch/
+output/
+session_*.png
+session_*.json
+final_*.png
+enhanced_*.png
+bot_debug.log
+*.log
