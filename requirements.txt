@@ -13,12 +13,15 @@ python-telegram-bot>=21.0
 fastapi>=0.110.0
 uvicorn[standard]>=0.27.0
 
-# Static-ads-bot
+# Static-ads-bot + sales-bot
 slack-bolt>=1.18.0
-anthropic>=0.34.0
+anthropic>=0.40.0
 fal-client>=0.4.0
 google-genai>=1.0.0
 Pillow>=10.0.0
+
+# Sales-bot
+supabase>=2.10.0
 
 # Clean-media
 flask>=3.0.0
